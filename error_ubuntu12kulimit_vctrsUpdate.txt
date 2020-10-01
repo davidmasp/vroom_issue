@@ -1,0 +1,7 @@
+[1mRows:[22m 260,000
+[1mColumns:[22m 2
+[1mDelimiter:[22m "\t"
+[31mchr[39m [2]: letters, LETTERS
+
+[90mUse `spec()` to retrieve the guessed column specification[39m
+[90mPass a specification to the `col_types` argument to quiet this message[39m
