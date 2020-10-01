@@ -1,0 +1,6 @@
+mapping error: Too many open files
+Error in vroom_(file, delim = delim %||% col_types$delim, col_names = col_names,  : 
+  Files must all have 2 columns:
+* File 1018 has 0 columns
+Calls: <Anonymous> -> vroom_
+Execution halted
