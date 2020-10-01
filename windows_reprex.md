@@ -3,7 +3,6 @@
 
 library(readr)
 library(vroom)
-#> Warning: package 'vroom' was built under R version 3.6.3
 
 sessionInfo()
 #> R version 3.6.0 (2019-04-26)
@@ -21,7 +20,7 @@ sessionInfo()
 #> [1] stats     graphics  grDevices utils     datasets  methods   base     
 #> 
 #> other attached packages:
-#> [1] vroom_1.2.1 readr_1.3.1
+#> [1] vroom_1.3.2 readr_1.3.1
 #> 
 #> loaded via a namespace (and not attached):
 #>  [1] Rcpp_1.0.3       knitr_1.23       magrittr_1.5     hms_0.4.2       
@@ -88,7 +87,7 @@ sessionInfo()
 #> [1] stats     graphics  grDevices utils     datasets  methods   base     
 #> 
 #> other attached packages:
-#> [1] vroom_1.2.1 readr_1.3.1
+#> [1] vroom_1.3.2 readr_1.3.1
 #> 
 #> loaded via a namespace (and not attached):
 #>  [1] Rcpp_1.0.3       knitr_1.23       magrittr_1.5     hms_0.4.2       
@@ -96,9 +95,9 @@ sessionInfo()
 #>  [9] dplyr_0.8.4      stringr_1.4.0    highr_0.8        tools_3.6.0     
 #> [13] parallel_3.6.0   xfun_0.8         htmltools_0.4.0  assertthat_0.2.1
 #> [17] yaml_2.2.0       bit64_0.9-7      digest_0.6.24    tibble_2.1.3    
-#> [21] lifecycle_0.1.0  crayon_1.3.4     purrr_0.3.3      fs_1.3.1        
-#> [25] glue_1.3.1       evaluate_0.14    rmarkdown_1.13   stringi_1.4.4   
-#> [29] compiler_3.6.0   pillar_1.4.3     pkgconfig_2.0.3
+#> [21] lifecycle_0.1.0  crayon_1.3.4     purrr_0.3.3      vctrs_0.2.2     
+#> [25] fs_1.3.1         glue_1.3.1       evaluate_0.14    rmarkdown_1.13  
+#> [29] stringi_1.4.4    compiler_3.6.0   pillar_1.4.3     pkgconfig_2.0.3
 ```
 
 <sup>Created on 2020-10-01 by the [reprex package](https://reprex.tidyverse.org) (v0.3.0)</sup>
