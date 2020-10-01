@@ -1,10 +1,14 @@
 
 
+library(readr)
 
 # funs --------------------------------------------------------------------
 
 vroom_like <- function(paths) {
-  file_list = purrr::map(paths,readr::read_tsv)
+  file_list = purrr::map(paths,readr::read_tsv,col_types = cols(
+    letters = col_character(),
+    LETTERS = col_character()
+  ))
   dplyr::bind_rows(file_list)
 }
 
