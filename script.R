@@ -28,3 +28,6 @@ vroom_like(paths = file_names) -> dat_readr
 ncol(dat_readr)
 vroom::vroom(file = file_names) -> dat_vroom
 ncol(dat_vroom)
+
+sessionInfo()
+
